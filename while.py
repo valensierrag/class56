@@ -7,8 +7,10 @@ while True:
     if lives == 0:
         print("You lost all your lives, game over")
         break
+        #stop the loop even if the condition of the while is still true
     if dice_roll == 6:
         print("You rolled a 6, you win!")
         break
     print("You rolled a", dice_roll, "try again")
     lives -= 1
+#continue = it stops the code there and goes back to the beginning of the loop 
