@@ -13,4 +13,13 @@ while True:
         break
     print("You rolled a", dice_roll, "try again")
     lives -= 1
-#continue = it stops the code there and goes back to the beginning of the loop 
+#continue = it stops the code there and goes back to the beginning of the loop
+
+num = 0
+count = 0
+while num <= 19:
+    if num % 3 == 0:
+        count += 1
+    num += 1
+
+print("Numbers divisible by 3", count)
